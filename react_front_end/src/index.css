@@ -1,14 +1,37 @@
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
 
-body { 
+body {
     min-height: 100vh;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e) !important;
+    background-image: linear-gradient(
+        to right,
+        #0f0c29,
+        #302b63,
+        #24243e
+    ) !important;
+}
 
+h1 {
+    color: white;
+}
+
+.grid .card-input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.grid .card-form-select {
+    color: white;
+}
+
+
+.search .search-bar{
+    color: "white";
+    border-radius: 15px;
 }
 
 /*----- Header File CSS -----*/
@@ -22,8 +45,8 @@ body {
 .logo {
     display: flex;
     color: white;
-    font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
     align-items: center;
 }
 
@@ -34,7 +57,7 @@ body {
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 25px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     margin-right: 15px;
 }
 
@@ -53,7 +76,7 @@ img {
     display: flex;
     align-content: center;
     justify-content: center;
-    font-family:'Franklin Gothic Medium'
+    font-family: "Franklin Gothic Medium";
 }
 
 .search {
@@ -61,13 +84,6 @@ img {
     display: flex;
     align-content: center;
     justify-content: center;
-}
-
-.search_bar {
-    border-radius: 15px;
-    padding: 20px; 
-    width: 50%;
-    height: 15px; 
 }
 
 .grid {
@@ -91,7 +107,7 @@ img {
     display: flex;
     /* align-content: center; */
     justify-content: center;
-    font-family:'Franklin Gothic Medium';
+    font-family: "Franklin Gothic Medium";
     margin-top: 10px;
 }
 
@@ -102,12 +118,11 @@ img {
     /* border: solid;
     border-color: white; */
     /* width: fit-content; */
-
 }
 
 .dontHaveAccount {
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 20px;
 }
 
@@ -124,15 +139,14 @@ img {
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     margin-right: 15px;
 }
-
 
 input[type="text"],
 input[type="password"],
 textarea {
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 22px;
     width: 700px;
     margin-bottom: 10px;
@@ -141,7 +155,7 @@ textarea {
     border: none;
     border-bottom: 2px solid white;
     background-color: transparent;
-    color:white;
+    color: white;
     outline: none;
 }
 
