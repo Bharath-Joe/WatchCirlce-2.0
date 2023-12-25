@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Better Call Saul",
+        "rating": "5",
+        "src": "BCS.jpg",
+        "service": "Netflix",
+        "notes": "A captivating prequel to Breaking Bad, filled with morally complex characters. Highly recommended!"
+    },
+    {
+        "name": "Game of Thrones",
+        "rating": "4.5",
+        "src": "GOT.jpg",
+        "service": "HBO Max",
+        "notes": "A rollercoaster of emotions with epic battles and unexpected twists. Must-watch for fantasy lovers!"
+    },
+    {
+        "name": "The Flash",
+        "rating": "1.5",
+        "src": "TF.webp",
+        "service": "The CW",
+        "notes": "While the speedster action is fun, the plot can be inconsistent. Suitable for superhero enthusiasts."
+    },
+    {
+        "name": "House of Dragon",
+        "rating": "4",
+        "src": "HOD.jpg",
+        "service": "HBO Max",
+        "notes": "An intriguing Game of Thrones prequel, exploring the fascinating history of House Targaryen."
+    },
+    {
+        "name": "The Boys",
+        "rating": "4.5",
+        "src": "TB.jpg",
+        "service": "Prime Video",
+        "notes": "A dark and twisted take on superheroes. If you like subversive storytelling, this one's for you!"
+    },
+    {
+        "name": "Invincible",
+        "rating": "3.5",
+        "src": "Invincible.jpg",
+        "service": "Prime Video",
+        "notes": "Balancing superhero action and family drama, it's a unique animated series worth checking out."
+    },
+    {
+        "name": "Monarch: Legacy of Monsters",
+        "rating": "2",
+        "src": "MLOM.jpg",
+        "service": "Apple TV",
+        "notes": "While the monster visuals are impressive, the plot might not satisfy everyone's taste."
+    },
+    {
+        "name": "The Big Bang Theory",
+        "rating": "3.5",
+        "src": "TBBT.jpg",
+        "service": "HBO Max",
+        "notes": "A hilarious sitcom for science and geek culture fans. Some episodes hit the mark better than others."
+    },
+    {
+        "name": "Breaking Bad",
+        "rating": "4.5",
+        "src": "BB.jpg",
+        "service": "Netflix",
+        "notes": "An intense and gripping journey into the world of crime. One of the best TV shows ever made!"
+    }
+]
