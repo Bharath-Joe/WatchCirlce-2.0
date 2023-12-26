@@ -16,7 +16,7 @@
     {
         "name": "The Flash",
         "rating": "1.5",
-        "src": "TF.webp",
+        "src": "TF.jpg",
         "service": "The CW",
         "notes": "While the speedster action is fun, the plot can be inconsistent. Suitable for superhero enthusiasts."
     },
@@ -44,7 +44,7 @@
     {
         "name": "Monarch: Legacy of Monsters",
         "rating": "2",
-        "src": "MLOM.jpg",
+        "src": "MLOM.webp",
         "service": "Apple TV",
         "notes": "While the monster visuals are impressive, the plot might not satisfy everyone's taste."
     },
@@ -61,5 +61,13 @@
         "src": "BB.jpg",
         "service": "Netflix",
         "notes": "An intense and gripping journey into the world of crime. One of the best TV shows ever made!"
+    },
+    {
+        "name": "Modern Family",
+        "rating": "4",
+        "src": "MF.jpg",
+        "service": "Hulu",
+        "notes": "Funny and great character development"
+
     }
 ]

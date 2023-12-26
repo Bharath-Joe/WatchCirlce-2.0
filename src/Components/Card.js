@@ -18,7 +18,7 @@ const Card = ({ name, rating, src, service, notes }) => {
                     <Text fontSize="25px" as="u">{name}</Text>
                     <div className="Back-Card-Info">
                         <p className="Rating"><Text as='b'>Personal Rating: </Text><Rating value={rating} readOnly precision={0.5} /></p>
-                        <Text><Text as='b'>Streamig Service: </Text>{service}</Text>
+                        <Text><Text as='b'>Streaming Service: </Text>{service}</Text>
                         <Text><Text as='b'>Image URL: </Text>{src}</Text>
                         <Text><Text as='b'>Notes: </Text>{notes}</Text>
                     </div>

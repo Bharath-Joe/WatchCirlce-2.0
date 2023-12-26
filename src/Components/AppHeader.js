@@ -1,4 +1,4 @@
-import { Button, useColorMode } from "@chakra-ui/react";
+import { Button, useColorMode, Text } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -19,9 +19,9 @@ const AppHeader = () => {
 
     return (
         <header className="App-header">
-            <h1 className="Title" onClick={() => navigate("/")}>
-                WatchCircle
-            </h1>
+            <Text className="Title" onClick={() => navigate("/")}>
+                Watch<span className="Title-Circle">Circle</span>
+            </Text>
             <div className="Hamburger-Menu">
                 <Button
                     variant="link"
@@ -40,11 +40,6 @@ const AppHeader = () => {
                     <li>
                         <h1 onClick={() => navigate("profile")}>
                             Watch Profile
-                        </h1>
-                    </li>
-                    <li>
-                        <h1 onClick={() => navigate("watchlist")}>
-                            Watch List
                         </h1>
                     </li>
                     <li>

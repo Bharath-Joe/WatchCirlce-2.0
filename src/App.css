@@ -1,23 +1,19 @@
-.App {
-    text-align: center;
-    /* background-color: #282c34;
-    color: white */
-    padding-bottom: 30px;
-}
-
 .Title {
     cursor: pointer;
+    font-weight: bold;
+}
+
+.Title-Circle {
+    color:#FF4500;
 }
 
 .App-header {
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 15px 100px 25px 100px;
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
+    font-weight: 500;
 }
 
 .Toggle-Switch {
@@ -29,7 +25,7 @@
 }
 
 .Circle {
-    background-color: rgb(0, 0, 0);
+    background-color: #FF4500;
     border-radius: 50%;
     height: 25px;
     width: 25px;
@@ -52,9 +48,8 @@
 
 .Navigation-Components .special {
     padding: 6px;
-    border: 2px solid;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 500;
     margin-right: 40px;
 }
 
@@ -63,6 +58,11 @@
     text-decoration: none;
     padding-right: 40px;
     font-size: 15px;
+}
+
+.Navigation-Components li h1:hover {
+    text-decoration: underline;
+    color:#FF4500;
 }
 
 .Hamburger-Menu {
@@ -122,8 +122,8 @@
     }
 }
 
-.h1 {
-    font-size: 30px;
+.Greeting {
+    font-size: 35px;
 }
 
 .h6 {
@@ -133,7 +133,15 @@
 .Home-Style {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.Home-Header-Text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 30px 100px 0px 100px;
+
 }
 
 .SearchBar {
@@ -149,15 +157,13 @@
 }
 
 .Box {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
+    padding: 20px 100px 30px 100px
 }
 
 .Home-CardList {
     padding: 25px;
-    border-radius: 25px;
-    border: 3px solid;
+    border-radius: 20px;
+    border: 2px solid #FF4500;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -175,9 +181,29 @@
     width: 275px;
     height: 480px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 15px 15px;
-    border: 1px solid;
+    border: 1px solid #FF4500;
+}
+
+.Add-Card {
+    width: 275px;
+    height: 480px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border: 1px solid #FF4500;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
+    transition: transform 0.6s;
+}
+
+.Add-Card:hover{
+    transform: scale(0.8);
 }
 
 .Front-Card {
@@ -205,20 +231,20 @@
     height: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-  }
+}
 
 .Back-Card {
     padding: 15px 11px 10px 11px;
     transform: rotateY(180deg);
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
 .Back-Card-Info {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     text-align: left;
     gap: 1.5rem;
     margin-top: 25px;
@@ -227,6 +253,7 @@
 
 .Card-Image {
     overflow: hidden;
+    object-fit: cover;
 }
 
 .Card-Text {
@@ -239,4 +266,10 @@
 
 .Edit-Button {
     width: fit-content;
+}
+
+.Modal-Body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
