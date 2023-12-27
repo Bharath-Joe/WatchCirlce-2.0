@@ -51,10 +51,10 @@ const AppHeader = () => {
                         </h1>
                     </li>
                     <div className="Toggle-Switch" onClick={toggleColorMode}>
-                        <div className={colorMode === 'light' && "Circle"}>
+                        <div className={colorMode === 'light' ? "Circle" : undefined}>
                             {colorMode === 'light'}
                         </div>
-                        <div className={colorMode === 'dark' && "Circle"}>
+                        <div className={colorMode === 'dark' ? "Circle": undefined}>
                             {colorMode === 'dark'}
                         </div>
                     </div>

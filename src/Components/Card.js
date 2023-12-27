@@ -7,7 +7,7 @@ const Card = ({ name, rating, src, service, notes }) => {
             <div className="Inner-Card">
                 <div className="Front-Card">
                     <div className="Card-Image">
-                        <img src={src} alt={name} />
+                        <img src={src==="" ? "NoImage.jpg" : src} alt={name} />
                     </div>
                     <div className="Card-Text">
                         <h3><b>{name}</b></h3>
